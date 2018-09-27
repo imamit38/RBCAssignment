@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Reporter Test Start VerifyLoginDisplay]]>
+    </line>
+    <line>
+      <![CDATA[chrome broswer Launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[http://amazon.ca/ URL is accessed succefully]]>
+    </line>
+    <line>
+      <![CDATA[Test StartverifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Reporter logs Test SuccessverifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[Application is closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49542" started-at="2018-09-27T16:44:21Z" finished-at="2018-09-27T16:45:11Z">
+    <groups>
+    </groups>
+    <test name="VerifyLoginDisplay" duration-ms="49542" started-at="2018-09-27T16:44:21Z" finished-at="2018-09-27T16:45:11Z">
+      <class name="ca.amazon.tests.TC01VerifyLoginPageDisplay">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:ca.amazon.tests.TC01VerifyLoginPageDisplay@57fffcd7]" name="startBrowser" is-config="true" duration-ms="28818" started-at="2018-09-27T16:44:21Z" finished-at="2018-09-27T16:44:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome broswer Launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[http://amazon.ca/ URL is accessed succefully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:ca.amazon.tests.TC01VerifyLoginPageDisplay@57fffcd7]" name="verifyLogin" duration-ms="18487" started-at="2018-09-27T16:44:50Z" finished-at="2018-09-27T16:45:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test StartverifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Reporter logs Test SuccessverifyLogin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeWebDriver()[pri:0, instance:ca.amazon.tests.TC01VerifyLoginPageDisplay@57fffcd7]" name="closeWebDriver" is-config="true" duration-ms="2153" started-at="2018-09-27T16:45:09Z" finished-at="2018-09-27T16:45:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- ca.amazon.tests.TC01VerifyLoginPageDisplay -->
+    </test> <!-- VerifyLoginDisplay -->
+  </suite> <!-- Suite -->
+</testng-results>

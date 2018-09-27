@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ca.amazon.base.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="VerifyLoginDisplay(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ca.amazon.tests.TC01VerifyLoginPageDisplay">
+        <methods>
+          <include name="CloseWebDriver"/>
+          <include name="StartBrowser"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- ca.amazon.tests.TC01VerifyLoginPageDisplay -->
+    </classes>
+  </test> <!-- VerifyLoginDisplay(failed) -->
+</suite> <!-- Failed suite [Suite] -->
